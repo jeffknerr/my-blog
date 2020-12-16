@@ -83,6 +83,11 @@ const Wrapper = styled.div`
 const Footer = styled.footer`
   text-align: center;
   margin: 24px;
+  a:link { text-decoration: none; }
+  a:hover { color: pink; text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:active { text-decoration: none; }
+  background-color: yellow;
 `
 
 export default Layout
